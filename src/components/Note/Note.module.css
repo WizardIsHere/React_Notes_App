@@ -1,0 +1,28 @@
+.Note{
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+}
+.ActionButton{
+    position: fixed;
+    bottom: 4rem;
+    right: 5rem;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          
+    border: 1px solid #eee;
+    border-radius: 50%;
+    box-shadow:  11px 11px 22px #c1c1c1,
+    -11px -11px 22px #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
